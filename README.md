@@ -1,17 +1,28 @@
-# AKLang
+# AKLang Runtime System
 
-### Motivation
+A dynamic runtime system and memory management implementation in C, building toward an interpreted programming language.
 
-- Im learning systems programming in C and what better way than to implement pointers knowledge than building a programming language that is built on top of C.
+## Motivation
 
-### Features
+Learning systems programming in C by implementing the foundational runtime components of a programming language - managing dynamic types, heap memory, and garbage collection from scratch.
 
-- This language is like Python, all data is created as objects on the Heap Memory with Data Structures I have implemented (or plan to implement) like:
-  - Dynamic Array
-  - Tries
-  - Heaps
-  - Hash Maps
-  - Some complex trees
-- Garbage Collector to free memory from the Heap and avoid dreaded memory leaks
-  - Mark and Sweep Garbage Collector
-- Plan to implement an interpreter in the future to actually run code
+## Current Features
+
+### Dynamic Type System
+
+- **Tagged unions** for runtime type identification
+- Heap-allocated objects (similar to Python)
+- Support for: integers, floats, strings, arrays
+
+### Data Structures
+
+- Dynamic Arrays
+- Tries
+- Heaps
+- Hash Maps
+- Advanced tree structures
+
+### Memory Management
+
+- Heap allocation for all objects
+- Mark-and-Sweep Garbage Collector
