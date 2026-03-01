@@ -53,7 +53,7 @@ Learning systems programming in C by implementing the foundational runtime compo
     ├── Mark-and-Sweep/       # Full GC implementation
     │   ├── ms.h
     │   └── mark-and-sweep.c
-    └── Reference-Counting/   # Stub (not active)
+    └── Reference-Counting/
         ├── ref_counter.h
         └── ref_counter.c
 ```
